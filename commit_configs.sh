@@ -16,5 +16,5 @@ cp $HOME/.vimrc .
 
 # complete the git calls to commit code
 git add --all
-git commit -m "Sync system config files for Bryan"
+git commit -q -m "Sync system config files for Bryan"
 git push -q origin main

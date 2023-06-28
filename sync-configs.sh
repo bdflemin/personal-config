@@ -5,7 +5,7 @@ cd `dirname $0`
 PID=`$(which pidof) fswatch`
 FILELIST="$HOME.vimrc $HOME/.zprezto"
 
-if [ -n $PID ] ; then
+if [ -n "$PID" ] ; then
     exit 1;
 fi
 
