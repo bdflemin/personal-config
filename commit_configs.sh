@@ -2,6 +2,10 @@
 
 cd `dirname $0`
 
+# get commit number by 1
+COMMITNUM=`git rev-list --all --count`
+COMMITNUM=$((COMMITNUM+1))
+
 # make sure .zprezto exists
 mkdir -p ./.zprezto/runcoms
 
@@ -16,5 +20,5 @@ cp $HOME/.vimrc .
 
 # complete the git calls to commit code
 git add --all
-git commit -q -m "Sync system config files for Bryan"
+git commit -q -m "Sync system config files for Bryan #${COMMITNUM}"
 git push -q origin main
