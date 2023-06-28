@@ -9,4 +9,4 @@ if [ -n $PID ] ; then
     exit 1;
 fi
 
-`which fswatch` -o $FILELIST | xargs -n1 -I{} ./commit_configs.sh &
+(`which fswatch` -o $FILELIST | xargs -n1 -I{} ./commit_configs.sh) &
