@@ -21,5 +21,8 @@ alias grep='rg'
 alias ls='exa'
 alias c='clear'
 
+export EDITOR=vi
+export VISUAL=$EDITOR
+
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
