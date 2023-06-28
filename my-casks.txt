@@ -1,0 +1,12 @@
+awscli
+bat
+exa
+fswatch
+fzf
+jump
+pidof
+pyenv-virtualenv
+ripgrep
+starship
+tldr
+zsh
