@@ -17,3 +17,13 @@ xargs brew install < my-casks.txt
 ```
 pip install -r ./my-pip.txt
 ```
+
+# Setup on system
+Wanted to make it simple so I made the `sync-configs.sh` script executable and ran in a cron job every 5 minutes to make sure it will check to see if the `fswatch` was already active and if so, exit. If it didn't find the `fswatch` process, it will start it as a background process.
+
+## Prerequisite
+Installed the following using `brew`:
+```
+brew install fswatch pidof
+```
+Also, this is used to grab `zprezto` data and not `oh-my-zsh` data but that can be added if needed to make it robust enough for all zsh users.
