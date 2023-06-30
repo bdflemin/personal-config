@@ -12,6 +12,9 @@ mkdir -p ./.zprezto/runcoms
 # grab brew information
 `which brew` leaves > ./my-casks.txt
 
+# grab default pip info
+`which pip-chill` --no-version > ./my-pip.txt
+
 # grab zsh configs for zprezto
 cp -R $HOME/.zprezto/runcoms/z* .zprezto/runcoms/
 
