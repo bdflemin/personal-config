@@ -5,4 +5,5 @@ docutils
 flake8
 pandas
 pip-chill
+requests
 tabulate
