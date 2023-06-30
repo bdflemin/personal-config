@@ -12,3 +12,8 @@ most of the configs are `cp` options into the profile but the `brew` part will n
 ```
 xargs brew install < my-casks.txt
 ```
+
+`pip` will also need to be ran to update using the following:
+```
+pip install -r ./my-pip.txt
+```
