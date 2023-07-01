@@ -3,7 +3,9 @@ bat
 exa
 fswatch
 fzf
+go
 jump
+nox
 pidof
 pyenv-virtualenv
 ripgrep
