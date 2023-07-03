@@ -10,4 +10,4 @@ if [ -n "$PID" ] ; then
     exit 1;
 fi
 
-(${FSWATCHCMD} -Lr -o ${FILELIST} | xargs -n1 -I{} commit_configs.sh) &
+(${FSWATCHCMD} -Lr -o ${FILELIST} | xargs -n1 ./commit_configs.sh) &
