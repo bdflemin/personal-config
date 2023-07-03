@@ -12,4 +12,5 @@ pyenv-virtualenv
 ripgrep
 starship
 tldr
+tmux
 zsh
