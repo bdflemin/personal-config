@@ -24,6 +24,6 @@ Wanted to make it simple so I made the `sync-configs.sh` script executable and r
 ## Prerequisite
 Installed the following using `brew`:
 ```
-brew install fswatch pidof
+brew install fswatch pidof tmux
 ```
 Also, this is used to grab `zprezto` data and not `oh-my-zsh` data but that can be added if needed to make it robust enough for all zsh users.
