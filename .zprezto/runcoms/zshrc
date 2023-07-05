@@ -14,6 +14,7 @@ fi
 eval "$(jump shell --bind=goto)"
 eval "$(starship init zsh)"
 eval "$(/usr/local/bin/brew shellenv)"
+setopt completealiases
 
 # pyenv stuff
 export PYENV_ROOT="$HOME/.pyenv"
