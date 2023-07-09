@@ -4,7 +4,7 @@ cd `dirname $0`
 
 PID=`/usr/local/bin/pidof fswatch`
 FSWATCHCMD='/usr/local/bin/fswatch'
-FILELIST="$HOME/.vimrc $HOME/.zprezto/runcoms"
+FILELIST="$HOME/.vimrc $HOME/.zprezto/runcoms $HOME/.config"
 
 if [ -n "$PID" ] ; then
     exit 1;
