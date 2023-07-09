@@ -7,7 +7,7 @@ COMMITNUM=`git rev-list --all --count`
 COMMITNUM=$((COMMITNUM+1))
 
 # make sure .zprezto exists
-mkdir -p ./.zprezto/runcoms ./.config
+mkdir -p ./.zprezto/runcoms
 
 # grab brew information
 `which brew` leaves > ./my-casks.txt
@@ -20,7 +20,7 @@ cp -a $HOME/.zprezto/runcoms/z* .zprezto/runcoms/
 
 # grab vimrc and config stuff
 cp -a $HOME/.vimrc .
-cp -a $HOME/.config ./.config
+cp -a $HOME/.config .
 
 # complete the git calls to commit code
 git add --all
