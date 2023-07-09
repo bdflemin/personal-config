@@ -39,3 +39,6 @@ autoload -U compinit; compinit
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+
+# bitwarden
+export BW_SESSION="Tg8ngl4psAr1ZmasgNDjEC7Kq/M6A7X32q6AlkJJTqYNMo9WsLnLTdmAHRewgbhHMoE2PXxbne3K8z/OFeR3/g=="

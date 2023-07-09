@@ -1,5 +1,6 @@
 awscli
 bat
+bitwarden-cli
 exa
 fswatch
 fzf
