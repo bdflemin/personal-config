@@ -32,7 +32,7 @@ alias ls='exa'
 alias c='clear'
 alias vim='nvim'
 
-export EDITOR=vi
+export EDITOR=nvim
 export VISUAL=$EDITOR
 
 autoload -U compinit; compinit
