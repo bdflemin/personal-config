@@ -30,6 +30,7 @@ eval "$(pyenv virtualenv-init -)"
 alias grep='rg'
 alias ls='exa'
 alias c='clear'
+alias vim='nvim'
 
 export EDITOR=vi
 export VISUAL=$EDITOR

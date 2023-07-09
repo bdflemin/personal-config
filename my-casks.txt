@@ -5,6 +5,7 @@ fswatch
 fzf
 go
 jump
+neovim
 nox
 pidof
 pstree
