@@ -16,11 +16,11 @@ mkdir -p ./.zprezto/runcoms
 `which pip-chill` --no-version > ./my-pip.txt
 
 # grab zsh configs for :prezto
-cp -a $HOME/.zprezto/runcoms/z* .zprezto/runcoms/
+rsync -a $HOME/.zprezto/runcoms/z* .zprezto/runcoms/
 
 # grab vimrc and config stuff
-cp -a $HOME/.vimrc .
-cp -a $HOME/.config .
+rsync -a $HOME/.vimrc .
+rsync -a --exclude '.git*' $HOME/.config .
 
 # complete the git calls to commit code
 git add --all
