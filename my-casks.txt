@@ -12,6 +12,7 @@ pidof
 pstree
 pyenv-virtualenv
 ripgrep
+rsync
 starship
 tldr
 tmux
