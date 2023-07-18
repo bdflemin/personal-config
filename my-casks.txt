@@ -6,6 +6,7 @@ fswatch
 fzf
 go
 jump
+neofetch
 neovim
 nox
 pidof
