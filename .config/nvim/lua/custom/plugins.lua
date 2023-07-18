@@ -56,7 +56,7 @@ local plugins = {
         "mypy",
         "ruff",
         "pyright",
-        "ansiblels",
+        "ansible-language-server",
       },
     },
   },
