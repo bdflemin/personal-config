@@ -57,6 +57,7 @@ local plugins = {
         "ruff",
         "pyright",
         "ansible-language-server",
+        "ansible-lint",
       },
     },
   },
