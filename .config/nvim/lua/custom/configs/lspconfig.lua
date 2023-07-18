@@ -10,3 +10,10 @@ lspconfig.pyright.setup({
   capabilities = capabilities,
   filetypes = {"python"},
 })
+
+lspconfig.ansiblels.setup({
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = {"yaml"},
+})
+
