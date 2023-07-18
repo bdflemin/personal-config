@@ -17,4 +17,5 @@ rsync
 starship
 tldr
 tmux
+wget
 zsh
