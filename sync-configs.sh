@@ -11,10 +11,10 @@ if [ -n "$PID" ] ; then
 fi
 
 SESSION="fswatch"
-PANE="${session}.0"
+PANE="${SESSION}"
 TMUXCMD="/usr/local/bin/tmux"
 
-if [[ -z "$(${TMUXCMD} ls | grep fswatch)" ]]; then
+if [[ -z "$(${TMUXCMD} ls | grep $SESSION)" ]]; then
     $TMUXCMD new -d -s ${PANE}
 fi
 ${TMUXCMD} send-keys -t ${PANE} C-z "${FSWATCHCMD} -0 -Lr -o ${FILELIST} | xargs -0 -n1 ./commit-configs.sh" Enter
