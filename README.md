@@ -5,7 +5,7 @@ Currently looking for the following configs
 
 * brew casks
 * vimrc
-* zprezto (alternative to oh-my-zsh)
+* everything in .config
 
 most of the configs are `cp` options into the profile but the `brew` part will need ot be done doing the following:
 
